@@ -1,0 +1,589 @@
+[
+    {    
+        "type": "surveyQuestions",
+        "data": [
+            "¿La plantilla de ODDI simplifica el proceso de registrar entradas médicas?",
+            "¿Recomendaría ODDI a otros especialistas para agilizar el proceso de registro de entradas médicas?",
+            "¿La plantilla de ODDI agiliza el proceso de registrar entradas médicas?",
+            "¿La interfaz de usuario de ODDI es intuitiva y fácil de usar?",
+            "¿La plantilla de ODDI le ha permitido completar las entradas médicas de manera más eficiente y completa en comparación con los métodos tradicionales?",
+            "¿La capacidad de copiar toda la información con un solo clic en ODDI es una característica útil y conveniente?"
+        ]
+    },
+    {
+        "type": "evaluacionDropdowns",
+        "data": [
+            {
+                "title": "Fractura", 
+                "data": [
+                    {
+                        "name":"Vertical",
+                        "id":"vertical",
+                        "type": "fractura"
+                    },
+                    {
+                        "name":"Horizontal",
+                        "id":"horizontal",
+                        "type": "fractura"
+                    }
+                ]
+            },
+            {
+                "title": "Reabsorcion",
+                "data": [
+                    {
+                        "name":"Interna",
+                        "id":"interna",
+                        "type": "reabsorcion"
+                    },
+                    {
+                        "name":"Externa",
+                        "id":"externa",
+                        "type": "reabsorcion"
+                    }
+                ]
+            },
+            {
+                "title": "Movilidad",
+                "data": [
+                    {
+                        "name":"Grado 1: Minima",
+                        "id":"Grado 1",
+                        "type": "movilidad"
+                    },
+                    {
+                        "name":"Grado 2: Moderado",
+                        "id":"Grado 2",
+                        "type": "movilidad"
+                    },
+                    {
+                        "name":"Grado 3: Severa",
+                        "id":"Grado 3",
+                        "type": "movilidad"
+                    }
+                ]
+            },
+            {
+                "title": "Endodoncia Previa",
+                "data": [
+                    {
+                        "name":"Sobreobturado",
+                        "id":"sobreobturado",
+                        "type": "reendodoncia"
+                    },
+                    {
+                        "name":"Subobturado",
+                        "id":"subobturado",
+                        "type": "reendodoncia"
+                    },
+                    {
+                        "name":"Incompleto",
+                        "id":"incompleto",
+                        "type": "reendodoncia"
+                    },
+                    {
+                        "name":"Reinfeccion",
+                        "id":"reinfeccion",
+                        "type": "reendodoncia"
+                    }
+                ]
+            },
+            {
+                "title": "Estado Apice",
+                "data": [
+                    {
+                        "name":"Abierto",
+                        "id":"abierto",
+                        "type": "Estado Apice"
+                    },
+                    {
+                        "name":"Cerrado",
+                        "id":"cerrado",
+                        "type": "Estado Apice"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "dolorDropdowns",
+        "data": [
+            {
+                "title": "Tipo",
+                "data": [
+                    {
+                        "name":"Espontaneo",
+                        "id":"espontaneo",
+                        "type": "dolorTipo"
+                    },
+                    {
+                        "name":"Continuo",
+                        "id":"continuo",
+                        "type": "dolorTipo"
+                    },
+                    {
+                        "name":"Palpitante",
+                        "id":"palpitante",
+                        "type": "dolorTipo"
+                    },
+                    {
+                        "name":"Otro",
+                        "id":"Otro",
+                        "type": "dolorTipo"
+                    }
+                ]
+            },
+            {
+                "title": "Intensidad",
+                "data": [
+                    {
+                        "name":"Leve",
+                        "id":"Leve",
+                        "type": "dolorIntencidad"
+                    },
+                    {
+                        "name":"Moderada",
+                        "id":"moderada",
+                        "type": "dolorIntencidad"
+                    },
+                    {
+                        "name":"Severa",
+                        "id":"severa",
+                        "type": "dolorIntencidad"
+                    }
+                ]
+            }
+
+        ]
+    },
+    {
+        "type": "diagnosticoDropdowns",
+        "data": [
+            {
+                "title": "Periodontitis Apical",
+                "data": [
+                    {
+                        "name":"Cronica",
+                        "id":"cronica",
+                        "type": "PeriodontitisApical"
+                    },
+                    {
+                        "name":"Aguda",
+                        "id":"aguda",
+                        "type": "PeriodontitisApical"
+                    }
+                ]
+            },
+            {
+                "title": "Pulpitis",
+                "data": [
+                    {
+                        "name":"Reversible",
+                        "id":"reversible",
+                        "type": "Pulpitis"
+                    },
+                    {
+                        "name":"Irreversible",
+                        "id":"irreversible",
+                        "type": "Pulpitis"
+                    }
+                ]
+            },
+            {
+                "title": "Irreversible Sintomatica",
+                "data": [
+                    {
+                        "name":"Cronica",
+                        "id":"cronica",
+                        "type": "IrreversibleSintomatica"
+                    },
+                    {
+                        "name":"Aguda",
+                        "id":"aguda",
+                        "type": "IrreversibleSintomatica"
+                    }
+                ]
+            },
+            {
+                "title": "Irreversible Asintomatica",
+                "data": [
+                    {
+                        "name":"Reabsorcion",
+                        "id":"reabsorcion",
+                        "type": "IrreversibleAsintomatica"
+                    },
+                    {
+                        "name":"Pulpolito",
+                        "id":"pulpolito",
+                        "type": "IrreversibleAsintomatica"
+                    },
+                    {
+                        "name":"Hiperplasia",
+                        "id":"hiperplasia",
+                        "type": "IrreversibleAsintomatica"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "MedicacionDropdowns",
+        "data": [
+            {
+                "title": "Medicacion",
+                "data": [
+                    {
+                        "name":"Pre-Tratamiento",
+                        "id":"pretratamiento",
+                        "type": "medicacionDropdown"
+                    },
+                    {
+                        "name":"Post-Tratamiento",
+                        "id":"posttramiendo",
+                        "type": "medicacionDropdown"
+                    },
+                    {
+                        "name":"Entre Consulta",
+                        "id":"entreconsulta",
+                        "type": "medicacionDropdown"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "TipoEndodonciaDropdowns",
+        "data": [
+            {
+                "title": "Tipo de Endodoncia",
+                "data": [
+                    {
+                        "name":"Mecanizada",
+                        "id":"Mecanizada",
+                        "type": "TipoEndodoncia"
+                    },
+                    {
+                        "name":"Manual",
+                        "id":"Manual",
+                        "type": "TipoEndodoncia"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "tecnicaobturacionDropDowns",
+        "data": [
+            {
+                "title": "Tecnica de obturacion",
+                "data": [
+                    {
+                        "name":"Condensacion Lateral",
+                        "id":"Condensacion Lateral",
+                        "type": "tecnicaobturacion"
+                    },
+                    {
+                        "name":"Condensacion Vertical",
+                        "id":"Condensacion Vertical",
+                        "type": "tecnicaobturacion"
+                    },
+                    {
+                        "name":"Gutapercha y Sellador",
+                        "id":"Gutapercha y Sellador",
+                        "type": "tecnicaobturacion"
+                    },
+                    {
+                        "name":"Termoplastica",
+                        "id":"Termoplastica",
+                        "type": "tecnicaobturacion"
+                    },
+                    {
+                        "name":"Cono Unico",
+                        "id":"Cono Unico",
+                        "type": "tecnicaobturacion"
+                    },
+                    {
+                        "name":"Otro",
+                        "id":"Otro",
+                        "type": "tecnicaobturacion"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "IrrigacionDropdowns",
+        "data": [
+            {
+                "title": "Irrigacion",
+                "data": [
+                    {
+                        "name":"Hipoclorito",
+                        "id":"hipoclorito",
+                        "type": "irrigacion"
+                    },
+                    {
+                        "name":"Clorexidina",
+                        "id":"clorexidina",
+                        "type": "irrigacion"
+                    },
+                    {
+                        "name":"EDTA",
+                        "id":"EDTA",
+                        "type": "irrigacion"
+                    },
+                    {
+                        "name":"Alcohol",
+                        "id":"alcohol",
+                        "type": "irrigacion"
+                    },
+                    {
+                        "name":"Acido Citrico",
+                        "id":"acidoCitrico",
+                        "type": "irrigacion"
+                    },
+                    {
+                        "name":"Otro",
+                        "id":"Otro",
+                        "type": "irrigacion"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "AnestesiaDropdowns",
+        "data": [
+            {
+                "title": "Anestesia",
+                "data": [
+                    {
+                        "name":"Lidocaina 2%",
+                        "id":"Lidocaina 2%",
+                        "type": "anestesiaDropdowns"
+                    },
+                    {
+                        "name":"Mepivacaina 2%",
+                        "id":"Mepivacaina 2%",
+                        "type": "anestesiaDropdowns"
+                    },
+                    {
+                        "name":"Articaina",
+                        "id":"Articaina",
+                        "type": "anestesiaDropdowns"
+                    },
+                    {
+                        "name":"Prilocaina",
+                        "id":"Prilocaina",
+                        "type": "anestesiaDropdowns"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name":"Caries",
+        "id":"caries",
+        "type": "evaluacionBtn"
+    },
+    {
+        "name":"Trauma",
+        "id":"trauma",
+        "type": "evaluacionBtn"
+    },
+    {
+        "name":"Absceso",
+        "id":"absceso",
+        "type": "evaluacionBtn"
+    },
+    {
+        "name":"Discromia",
+        "id":"discromia",
+        "type": "evaluacionBtn"
+    },
+    {
+        "name":"Fistula",
+        "id":"fistula",
+        "type": "evaluacionBtn"
+    },
+    {
+        "name":"Fisura",
+        "id":"fisura",
+        "type": "evaluacionBtn"
+    },
+    {
+        "name":"Endodoncia por razon prostetica",
+        "id":"endodonciaProstetica",
+        "type": "evaluacionBtn"
+    },
+    {
+        "name":"Calor",
+        "id":"calor",
+        "type": "dolorBtn"
+    },
+    {
+        "name":"Frio",
+        "id":"frio",
+        "type": "dolorBtn"
+    },
+    {
+        "name":"Masticacion",
+        "id":"masticacion",
+        "type": "dolorBtn"
+    },
+    {
+        "name":"Acidos",
+        "id":"acidos",
+        "type": "dolorBtn"
+    },
+    {
+        "name":"Dulces",
+        "id":"dulces",
+        "type": "dolorBtn"
+    },
+    {
+        "name":"Periapical inicial",
+        "id":"periapicalInicial",
+        "type": "estudios"
+    },
+    {
+        "name":"Periapical final",
+        "id":"periapicalFinal",
+        "type": "estudios"
+    },
+    {
+        "name":"OPG",
+        "id":"opg",
+        "type": "estudios"
+    },
+    {
+        "name":"TAC",
+        "id":"tac",
+        "type": "estudios"
+    },
+    {
+        "name":"RX cono patron",
+        "id":"RXPatron",
+        "type": "estudios"
+    },
+    {
+        "name": "Frio",
+        "id": "frio",
+        "type": "pruebasVitalidad"
+    },
+    {
+        "name": "Calor",
+        "id": "calor",
+        "type": "pruebasVitalidad"
+    },
+    {
+        "name": "Palpacion",
+        "id": "palpacion",
+        "type": "pruebasVitalidad"
+    },
+    {
+        "name": "Presion",
+        "id": "presion",
+        "type": "pruebasVitalidad"
+    },
+    {
+        "name": "Percusion V",
+        "id": "percusion Vertical",
+        "type": "pruebasVitalidad"
+    },
+    {
+        "name": "Percusion H",
+        "id": "percusion Horizontal",
+        "type": "pruebasVitalidad"
+    },
+    {
+        "name": "Sano",
+        "id": "sano",
+        "type": "diagnosticoBtn"
+    },
+    {
+        "name": "Necrosis",
+        "id": "Necrosis",
+        "type": "diagnosticoBtn"
+    },
+    {
+        "name": "Retratamiento",
+        "id": "retratamiento",
+        "type": "diagnosticoBtn"
+    },
+    {
+        "name": "Favorable",
+        "id": "favorable",
+        "type": "diagnosticoBtnPronostico"
+    },
+    {
+        "name": "Desfavorable",
+        "id": "desfavorable",
+        "type": "diagnosticoBtnPronostico"
+    },
+    {
+        "name": "Reservado",
+        "id": "reservado",
+        "type": "diagnosticoBtnPronostico"
+    },
+    {
+        "name": "500mg",
+        "id": "500mg",
+        "type": "amoxicilina"
+    },
+    {
+        "name": "875mg",
+        "id": "875mg",
+        "type": "amoxicilina"
+    },
+    {
+        "name": "400mg",
+        "id": "400mg",
+        "type": "ibuprofeno"
+    },
+    {
+        "name": "600mg",
+        "id": "600mg",
+        "type": "ibuprofeno"
+    },
+    {
+        "name": "Triantibiotica",
+        "id": "triantibiotica",
+        "type": "entreconsultabtn"
+    },
+    {
+        "name": "Hidrox. de Calcio",
+        "id": "hidroxdecalcio",
+        "type": "entreconsultabtn"
+    },
+    {
+        "name": "Temporal",
+        "id": "temporal",
+        "type": "restauracionbtn"
+    },
+    {
+        "name": "Flow",
+        "id": "flow",
+        "type": "restauracionbtn"
+    },
+    {
+        "name": "MTA",
+        "id": "mta",
+        "type": "restauracionbtn"
+    },
+    {
+        "name": "Composite",
+        "id": "composite",
+        "type": "restauracionbtn"
+    },
+    {
+        "name": "Protesis",
+        "id": "protesis",
+        "type": "restauracionbtn"
+    },
+    {
+        "name": "Con Epinefrina",
+        "id": "ConEpinefrina",
+        "type": "epinefrinabtn"
+    }
+]

@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --font-Montserrat: "montserrat", sans-serif;
+  /* Recordar Montserrat Weigth de 300 Apoyo y 700 Principal */
+  --font-Mortise: "Mortise", sans-serif;
+  /* Recordar Mortise Weigth de 200 para secundarios  */
+  --Palatine-Blue: #5129e0;
+  --Federal-Blue: #250e62;
+  --White-Smoke: #f2f2f2;
+  --Night-: #0d0e0f;
+}
+.datosPacienteContainer {
+  font-family: var(--font-Montserrat);
+  padding: 10px;
+}
+.datosPacienteTitleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.datosPacienteTitle {
+  font-weight: 700;
+  margin-bottom: 0px;
+  font-size: 1.5rem;
+}
+.datosPacienteAgePD {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.datosPacienteInputs {
+  padding: 10px;
+}
+.datosPacientesAgePDLabels {
+  flex: 1;
+}
+.notShowDatosPaciente {
+  display: none;
+}

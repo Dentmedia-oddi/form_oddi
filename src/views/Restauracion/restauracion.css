@@ -13,6 +13,23 @@
   --White-Smoke: #f2f2f2;
   --Night-: #0d0e0f;
 }
-:root {
-  background-color: var(--White-Smoke);
+.restauracionMainContainer {
+  font-family: var(--font-Montserrat);
+}
+.titleRestauracion {
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+}
+.btnsRestauracionContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+}
+.dropdownsRestauracion {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
 }

@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --font-Montserrat: "montserrat", sans-serif;
+  /* Recordar Montserrat Weigth de 300 Apoyo y 700 Principal */
+  --font-Mortise: "Mortise", sans-serif;
+  /* Recordar Mortise Weigth de 200 para secundarios  */
+  --Palatine-Blue: #5129e0;
+  --Federal-Blue: #250e62;
+  --White-Smoke: #f2f2f2;
+  --Night-: #0d0e0f;
+}
+.bi {
+  font-size: 2rem;
+  color: green;
+  cursor: pointer;
+}
+.btnIsSelected {
+  background-color: transparent;
+  border: none;
+}
+.titleIsSelected {
+  font-family: var(--font-Montserrat);
+  margin-bottom: 0px;
+  font-size: 1.5rem;
+}
+.buttonsVitalidadContainer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-right: 30px;
+}
+.btnsIsSelectedContainer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}

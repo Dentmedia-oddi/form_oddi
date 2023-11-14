@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --font-Montserrat: "montserrat", sans-serif;
+  /* Recordar Montserrat Weigth de 300 Apoyo y 700 Principal */
+  --font-Mortise: "Mortise", sans-serif;
+  /* Recordar Mortise Weigth de 200 para secundarios  */
+  --Palatine-Blue: #5129e0;
+  --Federal-Blue: #250e62;
+  --White-Smoke: #f2f2f2;
+  --Night-: #0d0e0f;
+}
+.medicacionMainContainer{
+  font-family: var(--font-Montserrat);
+  padding: 10px;
+}
+.medicacionTitleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.titleMedicacion{
+  font-weight: 700;
+  margin-bottom: 0px;
+  font-size: 1.5rem;
+}
+.medicacionInputs{
+  display: flex;
+  flex-direction: column;
+}
+.notShowMedicacion {
+  display: none;
+}
+.dropdownsMedicacionContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 10px;
+}
+.btnsMedicacionContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+}
+.titleBtnMedicacion {
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+}
+.btnRemediosContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+.remediosTitle{
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+}
+.amoxicilinaContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.otroMedicamentoContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: column;
+}
+.OtroMedicamento {
+  flex: 7;
+}
+.otroMedicamentomg{
+  flex: 2;
+}
+.otroMedicamentoChildContainer{
+  display: flex;
+  gap: 10px;
+}
+.horasTitle {
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+}
+.medicamentoHoras {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+}
+.OtroMedicamentoHorasDias {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 50%;
+}
+.entreconsultaBtnContainer{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.EntreConsultaHorasDias {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.labelInputEntreConsulta {
+  width: 100px;
+}
+.titleBtnMedicacionContainer {
+  display: flex;
+  gap: 5px;
+}
+
+
+/* ----------MediaQueries------------ */
+
+@media (max-width: 426px) {
+  .optionsContainerApp {
+    width: 100%;
+  }
+  .OtroMedicamentoHorasDias {
+    width: 70%;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .optionsContainerApp {
+    width: 80%;
+  }
+  .OtroMedicamentoHorasDias {
+    width: 60%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .optionsContainerApp {
+    width: 80%;
+  }
+  .OtroMedicamentoHorasDias {
+    width: 60%;
+  }
+}

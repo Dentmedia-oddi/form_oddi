@@ -13,6 +13,6 @@
   --White-Smoke: #f2f2f2;
   --Night-: #0d0e0f;
 }
-:root {
-  background-color: var(--White-Smoke);
+.textPolitica {
+  text-indent: 2rem;
 }

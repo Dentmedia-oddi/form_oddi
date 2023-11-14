@@ -13,6 +13,12 @@
   --White-Smoke: #f2f2f2;
   --Night-: #0d0e0f;
 }
-:root {
-  background-color: var(--White-Smoke);
+.taperContainer {
+  display: flex;
+  gap: 10px;
+  font-family: var(--font-Montserrat)
+}
+.titleTaper {
+  font-size: 1.5rem;
+  margin-bottom: 0;
 }

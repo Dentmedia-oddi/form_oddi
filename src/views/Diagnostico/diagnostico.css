@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --font-Montserrat: "montserrat", sans-serif;
+  /* Recordar Montserrat Weigth de 300 Apoyo y 700 Principal */
+  --font-Mortise: "Mortise", sans-serif;
+  /* Recordar Mortise Weigth de 200 para secundarios  */
+  --Palatine-Blue: #5129e0;
+  --Federal-Blue: #250e62;
+  --White-Smoke: #f2f2f2;
+  --Night-: #0d0e0f;
+}
+.diagnosticoMainContainer{
+  font-family: var(--font-Montserrat);
+  padding: 10px;
+}
+.diagnosticoTitleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.diagnosticoTitle {
+  font-weight: 700;
+  margin-bottom: 0px;
+  font-size: 1.5rem;
+}
+.diagnosticoInputs{
+  display: flex;
+  flex-direction: column;
+}
+.notShowDiagnostico{
+  display: none;
+}
+.btnsDiagnosticoContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+}
+.dropdownsDiagnosticoContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 10px;
+}
+.btnTitleDiagnostico{
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+}
+.btnsDiagnosticoContainerPronos{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+
+.tipoEndodonciaContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+}

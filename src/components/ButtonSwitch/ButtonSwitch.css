@@ -13,6 +13,6 @@
   --White-Smoke: #f2f2f2;
   --Night-: #0d0e0f;
 }
-:root {
-  background-color: var(--White-Smoke);
+.btnSwitch {
+	font-size: 1.5rem;
 }

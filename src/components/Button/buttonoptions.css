@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --font-Montserrat: "montserrat", sans-serif;
+  /* Recordar Montserrat Weigth de 300 Apoyo y 700 Principal */
+  --font-Mortise: "Mortise", sans-serif;
+  /* Recordar Mortise Weigth de 200 para secundarios  */
+  --Palatine-Blue: #5129e0;
+  --Federal-Blue: #250e62;
+  --White-Smoke: #f2f2f2;
+  --Night-: #0d0e0f;
+}
+
+.btnOptionsContainer {
+  border-radius: 50px;
+  padding: 0 20px;
+  font-family: var(--font-Montserrat);
+  font-size: 1.2rem;
+  -webkit-box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.50);
+  -moz-box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.50);
+  box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.50);
+
+}
+
+.btnSelected {
+
+  border: none;
+  /* background-color: var(--Palatine-Blue); */
+  background-color: green;
+  color: var(--White-Smoke);
+}
+
+.btnNotSelect {
+
+  border: none;
+  background-color: var(--White-Smoke);
+  color: var(--Night-);
+}
+
+.btnMedicacionMainContainer{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

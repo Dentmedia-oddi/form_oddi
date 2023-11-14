@@ -13,6 +13,16 @@
   --White-Smoke: #f2f2f2;
   --Night-: #0d0e0f;
 }
-:root {
-  background-color: var(--White-Smoke);
+.answersSurveyContainer{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 10px ;
+}
+.emojiSurvey{
+  font-size: 2rem;
+}
+
+.emojiSurvey:hover {
+  cursor: pointer;
+  transform: scale(1.3);
 }

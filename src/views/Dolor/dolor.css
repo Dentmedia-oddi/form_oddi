@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --font-Montserrat: "montserrat", sans-serif;
+  /* Recordar Montserrat Weigth de 300 Apoyo y 700 Principal */
+  --font-Mortise: "Mortise", sans-serif;
+  /* Recordar Mortise Weigth de 200 para secundarios  */
+  --Palatine-Blue: #5129e0;
+  --Federal-Blue: #250e62;
+  --White-Smoke: #f2f2f2;
+  --Night-: #0d0e0f;
+}
+.dolorMainContainer {
+  font-family: var(--font-Montserrat);
+  padding: 10px;
+}
+.dolorTitleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.titleDolor {
+  font-weight: 700;
+  margin-bottom: 0px;
+  font-size: 1.5rem;
+}
+.dolorInputs {
+  display: flex;
+  flex-direction: column;
+}
+.dropdownsDolorContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 10px;
+}
+.btnsDolorContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+}
+.btnTitle {
+  font-size: 1.5rem;
+}
+.notShowDolor {
+  display: none;
+}
+.otroDolorContainer {
+  width: 100%;
+}

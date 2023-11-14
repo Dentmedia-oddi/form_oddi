@@ -13,6 +13,18 @@
   --White-Smoke: #f2f2f2;
   --Night-: #0d0e0f;
 }
-:root {
-  background-color: var(--White-Smoke);
+.css-b62m3t-container {
+  width: 200px;
+  font-family: var(--font-Montserrat);
+  font-weight: 300;
+}
+.titleDropdown {
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+}
+
+.dropdownContainer {
+  display: flex;
+  align-items: center; 
+  gap: 5px;
 }
