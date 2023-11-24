@@ -16,6 +16,7 @@ import { Diagnostico } from "./views/Diagnostico/Diagnostico";
 import { Medicacion } from "./views/Medicacion/Medicacion";
 import ModalPoliticas from "./components/ModalPoliticas/ModalPoliticas";
 import Observaciones from "./views/Observaciones/Observaciones";
+import NavbarForm from "./components/navbarForm/NavbarForm";
 
 
 function App() {
@@ -132,6 +133,7 @@ function App() {
     }
   return (
     <div className="appMainContainer">
+      <NavbarForm/>
       <ModalPoliticas/>
       <ModalSurvey
         openModal={openModalSurvey}

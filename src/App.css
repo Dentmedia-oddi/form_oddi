@@ -15,7 +15,6 @@
 }
 .appMainContainer {
   /* background-color: var(--Federal-Blue); */
-  padding: 20px;
   background-color: var(--White-Smoke);
   width: 100%;
   display: flex;
